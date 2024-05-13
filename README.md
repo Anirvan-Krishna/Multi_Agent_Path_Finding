@@ -1,14 +1,6 @@
 # Multi-Agent Path Finding using Conflict Based A* Search
 
-This repository contains code for solving the Multi-Agent Path Finding problem using A* search algorithm and conflict resolution techniques. The main objective is to find optimal paths for multiple agents navigating through a grid with obstacles while avoiding collisions.
-
-## Overview
-The provided code implements several key functionalities:
-1. **Grid Representation**: Defines a grid environment with obstacles where agents move.
-2. **A*** **Search Algorithm**: Finds the shortest path from a start to a goal position using A* search.
-3. **Conflict Detection and Resolution**: Identifies conflicts where agents might collide and resolves them by replanning paths.
-4. **Visualization**: Visualizes the grid environment, agent paths, and conflicts using matplotlib.
-5. **Path Optimization**: Determines the most efficient order of task execution for a group of robots, minimizing the total time taken.
+This repository contains code for solving the Multi-Agent Path Finding problem using A* search algorithm and conflict resolution techniques. The main objective is to find optimal paths for multiple agents navigating through a grid with obstacles while avoiding collisions. This project was built as a part of the course AI61005: Artificial Intelligence Foundations and Applications at IIT Kharagpur.
 
 ## Dependencies
 The code is written in Python and requires the following dependencies:
